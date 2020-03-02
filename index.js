@@ -17,7 +17,7 @@ const connection = mysql.createConnection({
 connection.connect();
 
 app.get('/', (req, res) => {
-    res.send('Hello world');
+    res.send('NodeMysql CRUD');
 });
 
 // Create a post
